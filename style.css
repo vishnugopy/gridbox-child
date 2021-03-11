@@ -1,0 +1,47 @@
+/*
+ Theme Name:   Gridbox child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Gridbox child creted by vishnu
+ Author:       vishnugopy
+ Author URI:   http://example.com
+ Template:     gridbox
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  Gridbox child
+*/
+
+
+#footer {
+    background-color: #674c45;
+}
+
+#masthead {
+    background-color: #674c45;
+}
+
+.more-link {
+    background-color: #674c45;
+}
+
+.more-link:hover {
+    background-color: black;
+}
+
+#footer-text {
+    color: white;
+    animation: color_change 1s infinite alternate;
+}
+
+@keyframes color_change {
+    from {
+        color: white;
+        transform: translateX(20%);
+    }
+
+    to {
+        color: lightblue;
+        transform: translateX(0%);
+    }
+}
